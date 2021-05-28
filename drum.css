@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(45deg, #e66465, #9198e5);
+   
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+div{
+    text-align: center;
+    font-size: 20px;
+    color: #070707;
+}
+.key{
+    width: 200px;
+    height: 200px;
+    border: 0.5px solid black;
+    transition: all 2sec ease;
+}
+.key:active{
+    opacity: 0.5;
+}
+.black{
+    background: linear-gradient(45deg, #0e0d0d, #9198e5);
+}
+.red{
+    background: linear-gradient(45deg, #0a0a0a, #e42121);
+}
+.green{
+    background: linear-gradient(45deg, #0e0d0d, #16c766);
+}
+.yellow{
+    background: linear-gradient(45deg, #0e0d0d, #cbe00a);
+}
+.pink{
+    background: linear-gradient(45deg, #070707, #e66465);
+}
+.orange{
+    background: linear-gradient(45deg, #0e0d0d, #eb5a06);
+}
+.blue{
+    background: linear-gradient(45deg, #0e0d0d, #0e52e4);
+}
+.violet{
+    background: linear-gradient(45deg, #0e0d0d, #6a0ce6);
+}
+.brown{
+    background: linear-gradient(45deg, #0e0d0d, #dd0f0f);
+}
+
